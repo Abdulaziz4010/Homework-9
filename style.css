@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(./fonts/Roboto-Black.ttf);
+}
+
+.container {
+  height: 100vh;
+  padding: 0px 200px;
+  gap: 20px;
+}
+
+header {
+  height: 100vh;
+  background-image: url(./images/bagcroudn\ img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 40px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 40px;
+}
+
+header h2 {
+  color: white;
+  font-family: Ribeye;
+  font-size: 30px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header button {
+  background-color: #c9453b;
+  color: white;
+  padding: 12px 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+header main {
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+header main div:nth-child(1) {
+  width: 804px;
+}
+
+header h1 {
+  font-size: 65px;
+  color: white;
+}
+
+header .header-desc {
+  padding: 40px 0;
+  gap: 20px;
+  width: 40%;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.258);
+  font-size: 18px;
+}
+
+/* main qism */
+
+.box {
+  /* width: 100%; */
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(250, 233, 233, 0.322);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.box-desc {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box-item {
+  width: 80%;
+  height: 480px;
+  display: flex;
+  /* justify-content: start; */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.img-content {
+  /* padding: 10px; */
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px 0px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+.img-content img {
+  width: 400px;
+  height: 331px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: cover;
+}
+
+.img-desc {
+  width: 95%;
+  padding: 20px;
+}
+
+.box-desc p {
+  font-family: gelasio;
+  padding: 20px;
+  text-align: center;
+  gap: 20px;
+}
+
+/* 3-section */
+
+.special-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.special-content h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 35px;
+}
+
+.special-img {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.special-img img {
+  width: 100%;
+  height: 173px;
+  border-radius: 5px;
+}
+
+.special-content h6 {
+  width: 50%;
+  font-family: gelasio;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.locotion i {
+  color: red;
+}
+
+.star-first i {
+  color: gold;
+}
+
+.special-Offers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.h6 {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.star {
+  display: flex;
+  gap: 30px;
+}
+
+.spec-img-desc {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.day {
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.spec-img-desc {
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* From blog */
+
+.from-blog {
+  width: 100%;
+  height: 100vh;
+  /* justify-content: center; */
+  text-align: center;
+  padding: 0px;
+  gap: 0px;
+  font-family: Ribeye;
+}
+
+.from-blog h6 {
+  width: 50%;
+  font-family: gelasio;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.national-park img {
+  width: 450px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.national-park {
+  width: 40%;
+  height: 100%;
+  gap: 50px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.naitonal-decs {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  text-align: start;
+  gap: 20px;
+}
+
+.national-item {
+  display: flex;
+  justify-content: space-between;
+  justify-content: start;
+}
+
+.naitonal-decs p {
+  margin: 10px 0;
+  font-size: 15px;
+  gap: 20px;
+  color: rgb(128, 128, 128);
+}
+.nation-user {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.news-peace img {
+  width: 50%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.news-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 20px;
+}
+
+.news-peace {
+  display: flex;
+  text-align: start;
+  gap: 20px;
+  /* flex-direction: column; */
+}
+
+.news-peace p {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.news-peace h4 {
+  display: flex;
+  color: gray;
+  width: 80%;
+  margin: 10px 0px;
+  text-align: start;
+}
+
+.news-peace span {
+  display: flex;
+  text-align: start;
+  cursor: pointer;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer-container {
+  background-color: #9afbfb30;
+  width: 100%;
+  height: 30vh;
+  padding: 0px 200px;
+  gap: 20px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  gap: 80px;
+  padding: 20px 0px;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  gap: 20px;
+}
+
+.logo-first {
+  display: flex;
+  gap: 20px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.logo-first .feecbook {
+  color: rgba(12, 12, 250, 0.89);
+}
+
+.logo-first .instagram {
+  color: #ff6055;
+}
+
+.logo-first .twitter {
+  color: blue;
+}
+
+.logo-first .geogle {
+  color: #121149;
+}
+
+.footer-ul li {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  gap: 10px;
+  margin: 5% 50%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.contact-us h2 {
+  font-family: ribeye;
+  font-weight: 50;
+  font-style: unset;
+}
+
+.contact-us span {
+  cursor: pointer;
+}
+
+.logo-first i {
+  cursor: pointer;
+}
+
+.footer-span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* margin: 0px 5%; */
+  padding: 0% 5%;
+  gap: 10px;
+}
+
+.footer-span span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-input h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  width: 100%;
+}
+
+.footer-input {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+input {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  /* width: 195px; */
+  padding: 10px 10px;
+  margin: 20px 2px;
+}
+
+.footer-btn button {
+  color: white;
+  padding: 10px 30px;
+  background-color: #c9453b;
+  border: none;
+  margin-top: 40%;
+  margin-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
